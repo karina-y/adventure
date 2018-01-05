@@ -6,6 +6,8 @@ def play():
 	player = Player()
 	#These lines load the starting room and display the text
 	room = world.tile_exists(player.location_x, player.location_y)
+	if room is None:
+		room = world.tile_exists(2,0)
 	print(room.intro_text())
 	while player.is_alive() and not player.victory:
 		#loop that shit
