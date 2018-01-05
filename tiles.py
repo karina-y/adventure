@@ -33,7 +33,7 @@ def modify_player(self, player):
 	raise NotImplementedError()
 
 
-def StartingRoom(MapTile):
+def StartingRoom(self, MapTile):
 	def intro_text(self):
 		return """
 		You find yourself in a cave, a dark cave, with nothing but the glow of
