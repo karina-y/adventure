@@ -192,7 +192,7 @@ class FindDaggerRoom(LootRoom):
 
 class FindGoldRoom(LootRoom):
         def __init__(self, x, y):
-                super().__init__(x, y, items.Gold())
+                super().__init__(x, y, items.Gold(10))
 
         def intro_text(self):
                 return """
