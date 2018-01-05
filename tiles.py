@@ -241,3 +241,13 @@ class FindRocketLauncherRoom(LootRoom):
                 return """
                 A MOTHERFUCKING ROCKET LAUNCHER
                 """
+
+
+class LeaveCaveRoom(MapTile):
+	def intro_text(self):
+		return """
+		YASSSSSS BITCH U HAVE ESCAPED THE CAVE OF TERRORS U GO GLEN COCO!!!
+		"""
+
+	def modify_player(self, player):
+		player.victory = True
