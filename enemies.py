@@ -13,7 +13,7 @@ class TheBigGiantHead(Enemy):
 		super().__init__(name="The Big Giant Head", hp=10, damage=2)
 
 
-class (Bowser):
+class Bowser(Enemy):
         def __init__(self):
                 super().__init__(name="Bower", hp=14, damage=4)
 
