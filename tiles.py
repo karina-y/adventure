@@ -68,7 +68,7 @@ class EnemyRoom(MapTile):
 			the_player.hp = the_player.hp - self.enemy.damage
 			if self.enemy.damage >= the_player.hp:
 				print("lol u dead")
-			else if self.enemy.damage < 50:
+			elif self.enemy.damage < 50:
 				print("{} does {} damage. You have {} HP remaining.".format(self.enemy.name, self.enemy.damage, the_player.hp))
 			else:
 				print("{} does {} damage. You have {} HP remaining. lol u got fuuuuuucked up.".format(self.enemy.name, self.enemy.damage, the_player.hp))

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 #superclass
 class Item():
 	"""the base class for all items"""
@@ -33,7 +35,7 @@ class Weapon(Item):
 class TheRock(Weapon):
 	def __init__(self):
 		super().__init__(name="Rock, The",
-				description="Do you smell what The Rock is cookin'? If you smeeellllll what The Rock is cookin', The Rock will bludgeon your enemy to death!"
+				description="Do you smell what The Rock is cookin'? If you smeeellllll what The Rock is cookin', The Rock will bludgeon your enemy to death!",
 				value=100,
 				damage=50)
 
@@ -49,7 +51,7 @@ class Dagger(Weapon):
 class LegLamp(Weapon):
         def __init__(self):
                 super().__init__(name="Leg Lamp",
-                                description="The leg lamp from A Christmas Story, does pretty much nothing, maybe just annoys your enemies a bit"
+                                description="The leg lamp from A Christmas Story, does pretty much nothing, maybe just annoys your enemies a bit",
                                 value=0,
                                 damage=1)
 
@@ -57,7 +59,7 @@ class LegLamp(Weapon):
 class FatBastard(Weapon):
         def __init__(self):
                 super().__init__(name="Fat Bastard",
-                                description="A large human who eats your enemies in one bite.. GET IN MAH BELLEH!!"
+                                description="A large human who eats your enemies in one bite.. GET IN MAH BELLEH!!",
                                 value=100,
                                 damage=100)
 
@@ -65,7 +67,7 @@ class FatBastard(Weapon):
 class CellPhone(Weapon):
         def __init__(self):
                 super().__init__(name="Cell Phone",
-                                description="Snap a quick selfie before you die in some gruesome fashion or take a chance and throw your phone at the enemy"
+                                description="Snap a quick selfie before you die in some gruesome fashion or take a chance and throw your phone at the enemy",
                                 value=2,
                                 damage=5)
 
@@ -73,6 +75,6 @@ class CellPhone(Weapon):
 class RocketLauncher(Weapon):
         def __init__(self):
                 super().__init__(name="Rocket Launcher",
-                                description="Holy fucking shit it's a rocket launcher!!!! lol too bad there's no ammo to go with it ¯\_(ツ)_/¯"
+                                description="Holy fucking shit it's a rocket launcher!!!! lol too bad there's no ammo to go with it ¯\_(ツ)_/¯",
                                 value=75,
                                 damage=2)
