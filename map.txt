@@ -1,10 +1,10 @@
-		LeaveCaveRoom
-		TheBossRoom						
+		LeaveCaveRoom			
+		TheBossRoom			
 	FindTheRockRoom	EmptyCavePath	TheRocksEvilTwinRoom	EmptyCavePath	
 		EmptyCavePath			
-		EmptyCavePath		FindLegLampRoom	
-TheBigGiantHeadRoom	EmptyCavePath	StartingRoom	EmptyCavePath	FindDaggerRoom	
+		EmptyCavePath			
+TheBigGiantHeadRoom		EmptyCavePath	StartingRoom	EmptyCavePath	FindDaggerRoom
 		FindGoldRoom			
-FindCellPhoneRoom	EmptyCavePath	SallyRoom	FindGoldRoom		
+FindCellPhoneRoom			EmptyCavePath	SallyRoom	FindGoldRoom
 		EmptyCavePath	EmptyCavePath	BowserRoom	FindRocketLauncherRoom
 		EmptyCavePath			
