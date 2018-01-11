@@ -24,16 +24,14 @@ class MapTile:
 	        moves.append(actions.ViewInventory())
 	        return moves
 
+	def intro_text(self):
+		raise NotImplementedError()
 
-#shit's going downnnnn
-def intro_text(self):
-	raise NotImplementedError()
-
-def modify_player(self, player):
-	raise NotImplementedError()
+	def modify_player(self, player):
+		raise NotImplementedError()
 
 
-def StartingRoom(self, MapTile):
+class StartingRoom(MapTile):
 	def intro_text(self):
 		return """
 		You find yourself in a cave, a dark cave, with nothing but the glow of
