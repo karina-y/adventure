@@ -3,8 +3,8 @@
 	FindTheRockRoom	EmptyCavePath	TheRocksEvilTwinRoom	EmptyCavePath	
 		EmptyCavePath			
 		EmptyCavePath			
-TheBigGiantHeadRoom		EmptyCavePath	StartingRoom	EmptyCavePath	FindDaggerRoom
-		FindGoldRoom			
+TheBigGiantHeadRoom		EmptyCavePath	EmptyCavePath	EmptyCavePath	FindDaggerRoom
+		FindGoldRoom		EmptyCavePath	
 FindCellPhoneRoom			EmptyCavePath	SallyRoom	FindGoldRoom
 		EmptyCavePath	EmptyCavePath	BowserRoom	FindRocketLauncherRoom
-		EmptyCavePath			
+		StartingRoom			

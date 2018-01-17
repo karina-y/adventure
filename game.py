@@ -15,15 +15,22 @@ def play():
 		room.modify_player(player)
 		#check again since the room could've changed the player's state
 		if player.is_alive() and not player.victory:
-			print("Choose an action:\n")
+			#commented this shit out, prints the actions, we want them to guess
+			#print("Choose an action:\n")
 			available_actions = room.available_actions()
-			for action in available_actions:
-				print(action)
+			#for action in available_actions:
+			#	print(action)
 			action_input = input('Action: ')
+			action_found = False
 			for action in available_actions:
+				#print(action_input, action.hotkey)
 				if action_input == action.hotkey:
+					action_found = True
 					player.do_action(action, **action.kwargs)
 					break
+
+			if not action_found:
+				print("\nYOU CAN'T DO THAT\n")
 
 
 if __name__ == "__main__":
