@@ -1,4 +1,4 @@
 * git clone
-* navigate to root
+* cd adventure
 * python3 game.py
 * enjoy!
